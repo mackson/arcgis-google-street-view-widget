@@ -1,4 +1,4 @@
-## 🚀 Google Street View Widget Integrated in <i>Arcgis API for Javascript </i>
+## 🌎 Google Street View Widget Integrated in <i>Arcgis API for Javascript </i>
 <p>
   <i>
    Esté é um protótipo para Widget do Google Street View Integrado a Arcgis API for Javascript 
@@ -7,7 +7,7 @@
 <hr/>
 <img src="./static/images/thumb.jpg" alt="thumb" />
 <hr/>
-<h3>🏆 Principais Características</i> </h3>
+<h3>📝 Principais Características</i> </h3>
 
 - Exibe o panorama do Google Street View em Janela Modal;
 - Recupera a coordenada geográfica no mapa Arcgis e envia para a API do Google Street View;
