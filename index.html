@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>
+      Arcgis Google Street View Widget by Mackson Araujo
+    </title>
+
+    <!--Main Styles-->
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.21/esri/themes/dark-purple/main.css"
+    />
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+  </head>
+
+  <body>
+         
+      <div id="sigweb__viewDiv">
+        <div class="sigweb__centered">
+          <div id="sigweb__loader">
+            
+            <img width="100" height="100" src="/static/images/loader.gif"/>
+          </div>
+        </div>
+
+        <div id="sigweb__logoDiv" class="esri-widget">
+          <img src="/static/images/logoapp.png" alt="Logo App" />
+        </div>
+
+
+        <div id="sigweb__loadingMap" class="esri-widget">
+          <img width="32" height="32" src="/static/images/loader.gif"/>
+        </div>
+
+        <!--Street View Widget HTML-->
+        <div id="streetViewWindow" class="google-street-view">
+          <div class="google-street-view__div--padding-left">
+              <p class="google-street-view__paragraph">
+                Clique no botão logo a baixo e insira o ponto no mapa para iniciar
+              </p>
+              <p class="google-street-view__paragraph">
+                <a href="#" id="startWidget" class="google-street-view__button">
+                  <img src="/static/images/graySVM.png" alt="StreetViewPoint" />
+                </a>
+              </p>
+            </div>
+        </div>
+      </div>
+      
+    
+    <!--Scripts-->
+    <script src="https://js.arcgis.com/4.21/"></script>
+    <script src="/static/js/app.js"></script>
+   
+  </body>
+</html>
